@@ -1,0 +1,23 @@
+@use '_button';
+@use '_card';
+@use '_vars';
+$primary-blue: rgb(30, 30, 255);
+$primary-width: 100vw;
+$primary-fontfam: "roboto", sans-serif;
+$primary-decor: underline overline line-through;
+
+
+body {
+    width: 100%;
+    height: 20%;
+    background-color: bisque;
+    border: 1px solid black;
+}
+.container {
+    a {
+        text-decoration: overline;
+        text-transform: uppercase;
+        color: $primary-blue;
+        background-color: vars.$primary-red;
+    }
+}
